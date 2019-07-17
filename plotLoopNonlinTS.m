@@ -1,0 +1,11 @@
+function f=plotLoopNonlinTS
+%f1=Ztrajectories2D(1);
+%f2=Ztrajectories2D(2);
+f3=Ztrajectories2D(3);
+f4=Ztrajectories2D(4);
+U=zeros(size(f1));
+U(:,:,1)=f1;
+U(:,:,2)=f2;
+U(:,:,3)=f3;
+U(:,:,4)=f4;
+f=U;
